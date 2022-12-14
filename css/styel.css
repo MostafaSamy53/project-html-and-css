@@ -1,0 +1,408 @@
+@font-face {
+    font-family: oswald;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h3,h6,h5,p{
+    font-family: oswald;
+    font-weight: 400;
+    
+}
+/*nav start*/
+nav{
+    background-color: black;
+
+}
+nav a{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    display: inline-block;
+    padding: 8px 16px;
+}
+nav a:hover{
+    background-color: #ccc;
+    color: black;
+}
+.search{
+    float: right;
+}
+/*section start*/
+section{
+    text-align: center;
+    padding: 50px;
+}
+section h1{
+    padding: 15px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+section h6{
+    font-size: 16px;
+    font-weight: 500;
+}
+section h6 span{
+    padding: 4px 6px;
+    background-color: black;
+    color: white;
+}
+/*header start*/
+header{
+    position: relative;
+
+
+}
+header div{
+    position: absolute;
+    top: 40%;
+    left: 20px;
+    color: white;
+
+}
+header div h1{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+header div p{
+    font-size: 65px;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+header div button{
+    padding: 20px;
+    margin: 20px 0px;
+    background-color: rgba(159,162,158,0.8);
+    font-weight: bold;
+    border: none;
+
+}
+header div button:hover{
+    background-color: rgb(159,162,158);
+    
+}
+
+/*main start*/
+main{
+    background-color: #F1F1F1;
+    height: auto;
+    overflow: auto;
+
+}
+main #leftside{
+    display: inline-block;
+    float: left;
+    width: 70%;
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+main #leftside article{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0px;
+
+}
+main #leftside article h3{
+text-align: center;
+font-size: 22px;
+font-weight: 600;
+
+}
+main #leftside article h5{
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    font-size: large;
+}
+main #leftside article h5 span{
+    color: #828282;
+    
+}
+main #leftside article .pragraph{
+    font-family: 'open sans';
+    text-align: left;
+    text-align: justify;
+    font-size: 19px;
+}
+main #leftside article .pragraph span{
+    font-weight: bold;
+}
+main #leftside article .divbutton{
+    padding: 20px;
+
+
+}
+main #leftside article .divbutton .like{
+    float: left;
+    background-color: white;
+    padding: 8px;
+    color: black;
+    border: 1px solid gray;
+    font-weight: bold;
+
+}
+main #leftside article .divbutton .like:hover{
+    background-color: #616161;
+
+}
+main #leftside article .divbutton .replies{
+    float: right;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px;
+}
+main #leftside article .divbutton .replies span{
+    background-color: white;
+    color: black;
+    padding: 3px 7px;
+}
+main #leftside article .divbutton .replies:hover{
+    background-color: #616161;
+    color: black;
+}
+main #leftside article .articleend {
+    padding: 20px 0px;
+}
+
+main #leftside article .articleend .imga{
+    float: left;
+    width: 10%;
+    display: inline-block;
+
+
+}
+main #leftside article .articleend .texta p{
+    text-align: left;
+    margin: 0px 120px;
+  
+    padding: 10px 30px;
+
+}
+
+
+
+
+main #rightside{
+    display: inline-block;
+    float: right;
+    width: 30%;
+    background-color: #F1F1F1;
+    padding-right: 20px;
+    
+}
+main #rightside .myname{
+    margin: 40px 0px;
+    background-color: black;
+    color: white;
+}
+
+main #rightside .myname .textmyname{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+}
+main #rightside .myname .pmyname{
+    font-weight: lighter;
+    padding: 0px 15px 15px 15px;
+
+}
+main #rightside article{
+    margin-bottom: 20px;
+    
+}
+main #rightside .popular{
+    
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    font-weight: 400;
+    
+}
+main #rightside article .articlebody{
+    background-color: white;
+    height: auto;
+    overflow: auto;
+    padding: 10px;
+}
+main #rightside .popularpost .imgp{
+    float: left;
+    width: 15%;
+
+}
+main #rightside .popularpost .textp{
+    float: right;
+    width: 85%;
+    padding: 0px 20px;
+}
+main #rightside article .articlebody:hover{
+    background-color: #ccc;
+}
+main #rightside article .articlead{
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    
+}
+main #rightside article .articlead p{
+    padding: 80px;
+    background-color: #F1F1F1;
+}
+main #rightside article .tags{
+    padding: 20px;
+    background-color: white;
+}
+main #rightside article .tags span{
+    background-color: #F1F1F1;
+    margin: 5px;
+    padding: 0px 3px;
+    display: inline-block;
+}
+main #rightside article .inspiration{
+    background-color: white;
+    
+}
+main #rightside article .inspiration img{
+    display: inline-block;
+    padding: 10px;
+    
+}
+main #rightside article .follow{
+    background-color: white;
+    padding: 10px;
+    font-size: 25px;
+    
+}
+main #rightside article .follow a{
+    color: black;
+}
+main #rightside article .follow a:hover{
+    opacity: 0.6;
+}
+main #rightside article .subscribe{
+    background-color: white;
+    padding: 20px;
+}
+main #rightside article .subscribe form{
+
+
+}
+
+main #rightside article .subscribe form label{
+    display: block;
+    width: 100%;
+
+}
+main #rightside article .subscribe form input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+main #rightside article .subscribe form button{
+
+    display: block;
+    background-color: #F44336;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+main #rightside article .subscribe form button:hover{
+    background-color: #ccc!important;
+    color: black;
+}
+
+
+
+
+.clear{
+    clear: both;
+}
+/*footer start*/
+footer{
+    background-color: #616161;
+    padding: 30px;
+    color: white;
+   
+}
+footer .top{
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none;
+}
+footer .top:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+footer p{
+    padding: 30px 0px;
+    font-family: 'open sans';
+}
+footer a{
+    color: white;
+}
+@media screen and (max-width: 900px) {
+    header div{
+        
+        top: 20%;
+    }
+    header div h1{
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: 100px;
+        
+    }
+    header div p{
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    header div button{
+        padding: 10px;
+    }
+    main #leftside{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    main #rightside{
+        display: block;
+        float: none;
+        width: 100%;
+        margin-left: 10px;
+    
+    }
+    main #leftside article .articleend {
+        padding: 10px 0px;
+    }
+    
+    main #leftside article .articleend .imga{
+        float: none;
+        width: 20%;
+        display:block;
+    
+    
+    }
+    main #leftside article .articleend .texta p{
+        text-align: left;
+        display: inline;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    
+    }
+    
+    
+    
+
+}
+ 
